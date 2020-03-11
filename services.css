@@ -1,0 +1,158 @@
+
+body{
+	background-color: black;
+
+}
+
+.service-page
+{
+
+background: url(pic1.jpg);
+	padding: 40px 0;
+	background-size: cover;
+	}
+
+
+
+
+
+
+.services
+{
+
+	margin: 90px auto;
+	text-align: center;
+	 
+}
+h2
+{
+	font-family:  "Comic Sans MS";
+	
+	font-size: 40px;
+	text-transform: all;
+
+}
+ h2 span{
+	color: #edbb00;
+}
+
+.icon
+{
+	font-size:70px;
+	margin:30px auto;
+    padding:10px;
+	height:120px;
+	width:120px;
+	border:3px solid white;
+	border-radius: 50%;
+
+	 }
+
+.col-md-3:hover{
+	color: #ffdd59;
+	box-shadow: 5px 7px 0px -3px ;
+	cursor: pointer;
+	
+}
+
+.matter
+{    
+
+	font-size: 30px;
+	font-style: "Comic Sans MS";
+
+}
+.matter span{
+
+
+
+	color: #edbb00;
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+	.matter
+{    
+
+	font-size: 20px;
+	font-style: "Comic Sans MS";
+	text-align: center;
+
+}
+.service-page
+{
+
+background: url(pic1.jpg);
+	padding: 40px 0;
+	background-size: cover;
+	}
+
+	.col-md-3:hover{
+	color: #ffdd59;
+	box-shadow: 5px 7px 0px -3px ;
+	cursor: pointer;
+	
+}
+
+}
+@media only screen and (max-width: 767px){
+	
+
+	.matter
+{    
+
+	font-size: 20px;
+	font-style: "Comic Sans MS";
+	text-align: center;
+
+}
+.service-page
+{
+
+background: url(pic1.jpg);
+	padding: 40px 0;
+	background-size: cover;
+	}
+
+	.col-md-3:hover{
+	color: #ffdd59;
+	box-shadow: 5px 7px 0px -3px ;
+	cursor: pointer;
+	
+}
+
+
+
+}
+
+@media only screen and (max-width: 1200px)
+{
+	
+.matter
+{    
+
+	font-size: 20px;
+	font-style: "Comic Sans MS";
+	text-align: center;
+
+}
+.service-page
+{
+
+background: url(pic1.jpg);
+	padding: 40px 0;
+	background-size: cover;
+	}
+
+	.col-md-3:hover{
+	color: #ffdd59;
+	box-shadow: 5px 7px 0px -3px ;
+	cursor: pointer;
+	
+}
+
+}
+
+

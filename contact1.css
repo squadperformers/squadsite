@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "comic Sans MS";
+}
+.contact-section{
+	background: url(pic1.jpg) no-repeat center;
+	padding: 40px 0;
+	background-size: cover;
+}
+.contact-section h1{
+	font-size: 32px;
+	line-height: 10px;
+	text-align: center;
+	color: #ecf0f1;
+	font-family: "Comic Sans MS";
+	font-weight: bold;
+}
+h1 span{
+	color: #edbb00;
+
+}
+.contact-section h2{
+	margin: 50px;
+	font-size: 22px;
+	text-align: center;
+	color: white;
+	font-family: "Comic Sans MS";
+}
+
+
+.contact-section h2 span{
+	color: #edbb00;
+
+}
+.border{
+width: 100px;
+height: 5px;
+background: white;
+margin: 20px auto;
+}
+.contact-form{
+	max-width: 300px;
+	margin: auto;
+	padding: 0 10px;
+	overflow: hidden;
+
+}
+
+.contact-form-text{
+	display: block;
+	width: 300px;
+	box-sizing: border-box;
+	margin: 16px 0;
+	border: 0;
+	font-weight: bold;
+	border-bottom: 3px solid white;
+	padding: 20px 40px;
+	outline: none;
+	color: black;
+	transition: 0.5s;
+
+}
+.contact-form-text:focus{
+	box-shadow: 0 0 10px 4px  #edbb00;
+;
+}
+textarea.contact-form-text{
+	resize: none;
+	height: 120px;
+	font-color:black;
+	display: block;
+	
+
+}
+.contact-form-btn{
+
+	float: right;
+	border: 0;
+	background: #e84118;
+	color: #fff;
+	padding: 12px 50px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 0.5s;
+
+}
+.contact-form-btn:hover{
+	background:  #ffdd59;
+}
+.social-icons{
+	width: 100%;
+	height: 80px;
+	background-color: #232328;
+	padding-top: 13px;
+	text-align: center;
+	}
+	.icons{
+		display: inline-block;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		text-align: center;
+		color: #fff;
+		background-color: #2a2a2f;
+
+	} 
+.copyright-f{
+	width: 100%;
+	height: 40px;
+	background-color: #29292d;
+}
+
+.copyright{
+	margin: 0;
+	font-size: 15px;
+	line-height: 2.5rem;
+	color: rgba(255,255,255,0.8);
+	text-align: center;
+}
+.fa-heart{
+	color: #f44336;
+}
+.copyright a{
+	text-decoration: none;
+	color: #fff;
+
+}
+.social-icons a  i{
+	position: relative;
+	top:31%;
+}
+.icons:hover{
+	color:  #ffdd59; 
+}
